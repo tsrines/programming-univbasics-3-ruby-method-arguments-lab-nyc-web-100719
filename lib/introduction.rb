@@ -5,6 +5,7 @@
 
 
 def introduction(name)
+<<<<<<< HEAD
     puts "Hi, my name is #{name}."
   end
   
@@ -15,6 +16,21 @@ def introduction(name)
   def introduction_with_language_optional(name, language="Ruby")
     puts "Hi, my name is #{name} and I am learning to program in #{language}."
   end
+=======
+    puts "Hi, my name is #{name}"
+end
+
+
+def introduction_with_language (name,language)
+    puts "Hi, my name is #{name} and I am learning to program in #{language}."
+end
+
+def introduction_with_language_optional (name, language = "Ruby")
+    puts "Hi, my name is #{name} and I am learning to program in #{language}."
+end
+
+
+>>>>>>> 97e69059e73716eda1f08b4267b17339eb9f5f76
 
 
 
